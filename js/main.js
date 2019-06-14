@@ -1,9 +1,5 @@
 
 const getDate = ({ departureDate }) => new Date(departureDate).getTime();
-const getDay = ({ departureDate }) => {
-	const date = new Date(departureDate).getDay();
-	return ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][date];
-}
 const dateDiff = (from, to) => {
 	return Math.round((getDate(to) - getDate(from)) / (1000 * 60 * 60 * 24));
 }
@@ -20,23 +16,25 @@ const foo = (f, t, res = [], limit = 3) => {
 
 	if (!_to) return res;
 
+	const { currencyCode: cur } = _from.price;
 	const { amount: fPrice } = _from.price;
 	const { amount: tPrice } = _to.price;
 	let { departureDate: fDate } = _from;
 	let { departureDate: tDate } = _to;
-	fDate = tDate.replace(/2019-|T00:00:00/g, '');
-	tDate = tDate.replace(/2019-|T00:00:00/g, '');
+	fDate = new Date(fDate).toString().split(' ').slice(0, 4).reverse().join('/');
+	tDate = new Date(tDate).toString().split(' ').slice(0, 4).reverse().join('/');
 	res.push({
 		sum: fPrice + tPrice,
-		form: `${fDate}/${getDay(_from)}/${fPrice}`,
-		to: `${tDate}/${getDay(_to)}/${tPrice}`,
+		price: `${fPrice} + ${tPrice}`,
+		form: fDate,
+		to: tDate,
 		days: dateDiff(_from, _to)
 	});
 	return foo(f, t, res);
 };
 
-const analize = () => {
-	fetch('data/items.json')
+const analize = (city = 'gdansk') => {
+	fetch(`data/${city}.json`)
 		.then((res) => res.json())
 		.then(({ outboundFlights: from, returnFlights: to }) => {
 			const result = foo(from, to);

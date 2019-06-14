@@ -1,0 +1,1356 @@
+{
+	"outboundFlights": [
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-02T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-02T17:35:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-05T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-05T17:35:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-09T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-09T17:35:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-12T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-12T17:35:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-16T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-16T17:35:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-19T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-19T17:35:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-23T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-23T17:35:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-26T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-26T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-08-30T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-30T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-02T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-02T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-06T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-06T17:35:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-09T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-09T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-13T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-13T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-16T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-16T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-20T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-20T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-23T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-23T17:35:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-27T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-27T17:35:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-09-30T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-30T17:35:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-04T00:00:00",
+			"price": {
+				"amount": 789,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-04T17:35:00"
+			],
+			"classOfService": "PR",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-07T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-07T17:35:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-11T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-11T17:35:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-14T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-14T17:35:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-18T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-18T17:35:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-21T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-21T17:35:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-25T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-25T17:35:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-10-28T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-28T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-01T00:00:00",
+			"price": {
+				"amount": 789,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-01T22:50:00"
+			],
+			"classOfService": "PR",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-01T00:00:00",
+			"price": {
+				"amount": 789,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-01T22:50:00"
+			],
+			"classOfService": "PR",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-04T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-04T22:50:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-08T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-08T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-11T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-11T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-15T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-15T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-18T00:00:00",
+			"price": {
+				"amount": 429,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-18T22:50:00"
+			],
+			"classOfService": "Z",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-22T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-22T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-25T00:00:00",
+			"price": {
+				"amount": 429,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-25T22:50:00"
+			],
+			"classOfService": "Z",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-11-29T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-29T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-02T00:00:00",
+			"price": {
+				"amount": 429,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-02T22:50:00"
+			],
+			"classOfService": "Z",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-06T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-06T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-09T00:00:00",
+			"price": {
+				"amount": 429,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-09T22:50:00"
+			],
+			"classOfService": "Z",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-13T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-13T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-16T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-16T22:50:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-20T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-20T22:50:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-23T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-23T22:50:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-27T00:00:00",
+			"price": {
+				"amount": 1869,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-27T22:50:00"
+			],
+			"classOfService": "KL",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "HRK",
+			"arrivalStation": "KRK",
+			"departureDate": "2019-12-30T00:00:00",
+			"price": {
+				"amount": 1869,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-30T22:50:00"
+			],
+			"classOfService": "KL",
+			"hasMacFlight": false
+		}
+	],
+	"returnFlights": [
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-02T00:00:00",
+			"price": {
+				"amount": 789,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-02T14:05:00"
+			],
+			"classOfService": "PR",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-05T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-05T14:05:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-09T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-09T14:05:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-12T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-12T14:05:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-16T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-16T14:05:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-19T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-19T14:05:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-23T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-23T14:05:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-26T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-26T14:05:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-08-30T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-08-30T14:05:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-02T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-02T14:05:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-06T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-06T14:05:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-09T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-09T14:05:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-13T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-13T14:05:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-16T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-16T14:05:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-20T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-20T14:05:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-23T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-23T14:05:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-27T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-27T14:05:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-09-30T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-09-30T14:05:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-04T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-04T14:05:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-07T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-07T14:05:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-11T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-11T14:05:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-14T00:00:00",
+			"price": {
+				"amount": 2009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-14T14:05:00"
+			],
+			"classOfService": "K",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-18T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-18T14:05:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-21T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-21T14:05:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-25T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-25T14:05:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-10-28T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-10-28T19:10:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-01T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-01T19:10:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-01T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-01T19:10:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-04T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-04T19:10:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-08T00:00:00",
+			"price": {
+				"amount": 1149,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-08T19:10:00"
+			],
+			"classOfService": "O",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-11T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-11T19:10:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-15T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-15T19:10:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-18T00:00:00",
+			"price": {
+				"amount": 859,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-18T19:10:00"
+			],
+			"classOfService": "P",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-22T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-22T19:10:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-25T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-25T19:10:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-11-29T00:00:00",
+			"price": {
+				"amount": 429,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-11-29T19:10:00"
+			],
+			"classOfService": "Z",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-02T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-02T19:10:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-06T00:00:00",
+			"price": {
+				"amount": 579,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-06T19:10:00"
+			],
+			"classOfService": "S",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-09T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-09T19:10:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-13T00:00:00",
+			"price": {
+				"amount": 1299,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-13T19:10:00"
+			],
+			"classOfService": "BO",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-16T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-16T19:10:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-20T00:00:00",
+			"price": {
+				"amount": 719,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-20T19:10:00"
+			],
+			"classOfService": "R",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-23T00:00:00",
+			"price": {
+				"amount": 1009,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-23T19:10:00"
+			],
+			"classOfService": "OP",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-27T00:00:00",
+			"price": {
+				"amount": 1439,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-27T19:10:00"
+			],
+			"classOfService": "B",
+			"hasMacFlight": false
+		},
+		{
+			"departureStation": "KRK",
+			"arrivalStation": "HRK",
+			"departureDate": "2019-12-30T00:00:00",
+			"price": {
+				"amount": 649,
+				"currencyCode": "UAH"
+			},
+			"priceType": "price",
+			"departureDates": [
+				"2019-12-30T19:10:00"
+			],
+			"classOfService": "RS",
+			"hasMacFlight": false
+		}
+	]
+}
