@@ -17,8 +17,11 @@ const foo = (f, t, res = [], limit = 3) => {
 	if (!to) return res;
 
 	res.push({
-		from,
-		to,
+		from, to,
+		dPrice: from.price.amount,
+		aPrice: to.price.amount,
+		dTime: getDate(from),
+		aTime: getDate(to),
 		sum: from.price.amount + to.price.amount,
 		days: dateDiff(from, to)
 	});
@@ -31,24 +34,46 @@ const tpl = {
 		return `${day} ${month} ${year}, ${wDay}`;
 	}
 };
+const filterData = function (data) {
+	return (filterItem) => {
+		let res = [...data];
+		for (const key in filterItem) {
+			if (!filterItem[key]) continue;
+			if (/^(d|a)Time$/.test(key)) {
+				res = res.filter(el => {
+					return tpl.date(el[key]).toLowerCase().indexOf(filterItem[key].toLowerCase()) > -1;
+				});
+				continue;
+			}
+			res = res.filter(el => {
+				return el[key].toString().indexOf(filterItem[key]) > -1;
+			});
+		}
+		return res;
+	}
+}
 
 const renderDataGrid = (data) => {
-	const fDirection = `${data[0].from.departureStation} ✈ ${data[0].from.arrivalStation}`;
-	const tDirection = `${data[0].to.departureStation} ✈ ${data[0].to.arrivalStation}`;
+	const dDirection = `${data[0].from.departureStation} ✈ ${data[0].from.arrivalStation}`;
+	const aDirection = `${data[0].to.departureStation} ✈ ${data[0].to.arrivalStation}`;
 	const currency = data[0].from.price.currencyCode;
+
 	$('#jsGrid').jsGrid({
 		width: '100%',
 		height: '400px',
 		sorting: true,
+		filtering: true,
 		paging: true,
+		pageSize: 30,
+		controller: { loadData: filterData(data) },
 		data,
 		fields: [
 			{ name: 'sum', title: `Total sum (${currency})`, type: 'number', width: 50, sorting: true },
-			{ name: 'from.price.amount', title: `${fDirection}, Price (${currency})`, type: 'text', width: 50, sorting: true },
-			{ name: 'to.price.amount', title: `${tDirection}, Price (${currency})`, type: 'text', width: 50, sorting: true },
-			{ name: 'from.departureDate', title: 'Departure time', type: 'text', width: 100, sorting: true, sorter: 'date', itemTemplate: tpl.date },
-			{ name: 'to.departureDate', title: 'Arrival time', type: 'text', width: 100, sorting: true, sorter: 'date', itemTemplate: tpl.date },
-			{ name: 'days', title: 'Total days', type: 'number', width: 50, sorting: true }
+			{ name: 'dPrice', title: `${dDirection}, Price (${currency})`, type: 'number', width: 50, sorting: true },
+			{ name: 'aPrice', title: `${aDirection}, Price (${currency})`, type: 'number', width: 50, sorting: true },
+			{ name: 'dTime', title: 'Departure time', type: 'text', width: 100, sorting: true, itemTemplate: tpl.date },
+			{ name: 'aTime', title: 'Arrival time', type: 'text', width: 100, sorting: true, itemTemplate: tpl.date },
+			{ name: 'days', title: 'Total days', type: 'number', width: 50, sorting: true },
 		]
 	});
 }
