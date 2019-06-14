@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Avia tickets price analyzer</title>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <h1>Avia tickets price analyzer</h1>
-    <button onclick="analize('gdansk')">Gdansk</button>
-    <button onclick="analize('katowice')">Katowice</button>
-    <button onclick="analize('krakow')">Krakow</button>
-    <button onclick="analize('wroclaw')">Wroclaw</button>
-    <button onclick="analize('viena')">Viena</button>
-    <button onclick="analize('dortmund')">Dortmund</button>
+    <div id="wrapper">
+        <header>
+            <h1>Avia tickets price analyzer</h1>
+        </header>
+        <main>
+            <div class="manage">
+                <button onclick="analize('gdansk')">Gdansk</button>
+                <button onclick="analize('katowice')">Katowice</button>
+                <button onclick="analize('krakow')">Krakow</button>
+                <button onclick="analize('wroclaw')">Wroclaw</button>
+                <button onclick="analize('viena')">Viena</button>
+                <button onclick="analize('dortmund')">Dortmund</button>
+            </div>
+            <div id="jsGrid"></div>
+        </main>
+        <footer>
+            2019 &copy; Alex Frentsel
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
     <script src="js/main.js"></script>
     <!-- <script src="js/generate.js"></script> -->
 </body>
+
 </html>
