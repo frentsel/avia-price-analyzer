@@ -88,4 +88,10 @@ const analize = (city = 'gdansk') => {
 		});
 }
 
-analize('gdansk');
+window.onhashchange = function () {
+	var city = location.hash.slice(1);
+	analize(city);
+};
+
+location.hash = '';
+location.hash = '#gdansk';
