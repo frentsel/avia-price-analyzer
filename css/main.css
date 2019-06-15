@@ -42,7 +42,6 @@ h1 {
     color: darkmagenta;
 }
 
-
 h1 + small {
     color: gray;
 }
@@ -53,22 +52,19 @@ main {
 
 nav {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 nav>a {
-	cursor: pointer;
+    cursor: pointer;
     flex-grow: 1;
     padding: 5px 10px;
     font-size: 13px;
     font-weight: bold;
-    border-right: 1px solid #dedede;
     outline: none;
     text-decoration: none;
     color: darkmagenta;
-}
-
-nav>a:last-child {
-	border-right: 0 none;
+    text-align: center;
 }
 
 nav>a:target,

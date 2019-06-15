@@ -1,4 +1,3 @@
-
 const getDate = ({ departureDate }) => new Date(departureDate).getTime();
 const dateDiff = (from, to) => {
 	return Math.round((getDate(to) - getDate(from)) / (1000 * 60 * 60 * 24));
@@ -79,7 +78,7 @@ const renderDataGrid = (data) => {
 }
 
 const analize = (city = 'gdansk') => {
-	fetch(`data/${city}.json`)
+	fetch(`data/${city}.json?t=${new Date().toString()}`)
 		.then((res) => res.json())
 		.then(({ outboundFlights: from, returnFlights: to }) => {
 			const result = foo(from, to);
@@ -95,3 +94,56 @@ window.onhashchange = function () {
 
 location.hash = '';
 location.hash = '#gdansk';
+
+const fill = (city = 'WRO') => {
+	const from = [
+		'2019-07-01',
+		'2019-08-01',
+		'2019-09-01',
+		'2019-10-01',
+		'2019-11-01',
+		'2019-12-01',
+		'2020-01-01',
+		'2020-02-01',
+		'2020-03-01',
+		'2020-04-01',
+		'2020-05-01',
+	];
+	const to = [
+		'2019-08-01',
+		'2019-09-01',
+		'2019-10-01',
+		'2019-11-01',
+		'2019-12-01',
+		'2020-01-01',
+		'2020-02-01',
+		'2020-03-01',
+		'2020-04-01',
+		'2020-05-01',
+		'2020-06-01',
+	];
+	data = {
+		outboundFlights: [],
+		returnFlights: []
+	};
+
+	const xxx = (_from, _to, _data, finish) => {
+
+		if (!_from.length || !_to.length) return finish(_data);
+
+		const dateFrom = _from.shift();
+		const dateTo = _to.shift();
+		fetch(`http://127.0.0.1:3000/?cityTo=${city}&dateFrom=${dateFrom}&dateTo=${dateTo}`)
+			.then(response => response.json())
+			.then(({ outboundFlights, returnFlights }) => {
+				_data.outboundFlights.push(...outboundFlights);
+				_data.returnFlights.push(...returnFlights);
+
+				xxx(_from, _to, _data, finish);
+			});
+	}
+
+	xxx(from, to, data, function (result) {
+		console.log(JSON.stringify(result));
+	});
+}
